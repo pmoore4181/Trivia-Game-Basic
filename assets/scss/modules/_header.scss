@@ -1,0 +1,9 @@
+.timer {
+	font-size: $font-size-questions;
+	color: $header-color;
+	text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}

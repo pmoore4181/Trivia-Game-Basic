@@ -1,0 +1,10 @@
+#results {
+	font-size: $font-size-results;
+	color: $color-results;
+	text-align: center;
+	text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}

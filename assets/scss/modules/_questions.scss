@@ -1,0 +1,24 @@
+.questionSection{
+	background-color: rgb(65,65,65);
+	opacity: .75;
+	width: 40%;
+	float: left;
+	margin: 25px;
+	padding: 5px;
+	border-radius: 5px;
+	color: $color-answer;
+}
+
+.question {
+	color: $color-question;
+	text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+
+// .answer {
+// 	margin-left: 5px;
+// 	color: $color-answer;
+// }

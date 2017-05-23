@@ -1,5 +1,3 @@
-// $("document").ready(function() {
-
 var total = 5;
 var score = 0;
 var time = 25;
@@ -12,11 +10,11 @@ setTimeout(disableButtons, 25000);
 setTimeout(submitAnswers, 25000);
 
 
-function disableButtons () {
-	// disables submit button
-	$("#submit").prop("disabled", true);
-	// disables answers
-	$(".answer").prop("disabled", true);
+function disableButtons() {
+    // disables submit button
+    $("#submit").prop("disabled", true);
+    // disables answers
+    $(".answer").prop("disabled", true);
 }
 
 function submitAnswers() {
@@ -36,6 +34,8 @@ function submitAnswers() {
     }
 
     $("#results").html("<h3>You scored " + score + " out of " + total + "</h3>");
+
+    disableButtons();
 
     // stops timer on click
     stop();
@@ -82,5 +82,3 @@ function stop() {
 }
 
 run();
-
-// });

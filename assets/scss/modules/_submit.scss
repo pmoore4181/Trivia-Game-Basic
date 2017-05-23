@@ -1,0 +1,17 @@
+#submit{
+	clear: right;
+	float: right;
+	margin-right: 20%;
+	margin-top: 60px;
+	font-size: $font-size-submit;
+    font-weight: bold;
+}
+
+input[type=submit] {
+    padding:30px 60px; 
+    background:#ccc; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}

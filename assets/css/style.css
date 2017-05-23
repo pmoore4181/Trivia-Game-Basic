@@ -6,10 +6,72 @@ body {
 
 h1 {
   font-family: "Russo One", serif;
-  font-size: 500%;
-  text-align: center; }
+  font-size: 6em;
+  text-align: center;
+  color: #e6e6e6;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; }
+
+.question {
+  font-size: 1.5em; }
+
+.answer {
+  font-size: 1em; }
 
 .timer {
   text-align: center; }
+
+.questionSection {
+  background-color: #414141;
+  opacity: .75;
+  width: 40%;
+  float: left;
+  margin: 25px;
+  padding: 5px;
+  border-radius: 5px;
+  color: #d9d9d9; }
+
+.question {
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; }
+
+#results {
+  font-size: 2.2em;
+  color: #f2f2f2;
+  text-align: center;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; }
+
+.timer {
+  font-size: 1.5em;
+  color: #e6e6e6;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; }
+
+html {
+  background: url(../images/background1.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+#submit {
+  clear: right;
+  float: right;
+  margin-right: 20%;
+  margin-top: 60px;
+  font-size: 1.5em;
+  font-weight: bold; }
+
+input[type=submit] {
+  padding: 30px 60px;
+  background: #ccc;
+  border: 0 none;
+  cursor: pointer;
+  -webkit-border-radius: 5px;
+  border-radius: 5px; }
+
+.triviaForm {
+  margin-left: 5%;
+  margin-bottom: 100px;
+  position: relative;
+  top: -100px; }
 
 /*# sourceMappingURL=style.css.map */
