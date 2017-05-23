@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css?family=Russo+One");
+body {
+  font-family: "Helvetica", sans-serif;
+  font-size: 16px;
+  line-height: 1.5; }
+
+h1 {
+  font-family: "Russo One", serif;
+  font-size: 500%;
+  text-align: center; }
+
+.timer {
+  text-align: center; }
+
+/*# sourceMappingURL=style.css.map */

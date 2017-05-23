@@ -2,17 +2,21 @@
 
 <html>
 	<head>
+		<meta charset="utf-8">
 		<title>Hockey Trivia</title>
 		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 		
 	</head>
+
 	<body>
 		<div id="container">
 
 		<header>
 			<h1>Hockey Trivia</h1>
-			<p>Time remaining: <span id="time-left"></span></p>
+			<p class="timer">Time remaining: <span id="time-left"><br>15 seconds!</span></p>
+			<br>
+			<div id="results"><br><br></div>
 		</header>
 		
 		<section>
@@ -25,32 +29,32 @@
 					<input type="radio" name="q1" value="d" id="q1d">d. Dallas Stars<br>
 				
 					<h3 class="question" id="two">2. How many goals do you need to score a Hat Trick?</h3>
-					<input type="radio" name="q2" value="a" id="q2a">a. 1<br>
-					<input type="radio" name="q2" value="b" id="q2b">b. 2<br>
-					<input type="radio" name="q2" value="c" id="q2c">c. 3<br>
-					<input type="radio" name="q2" value="d" id="q2d">d. 4<br>
+					<input type="radio" name="q2" value="a" class ="answer" id="q2a">a. 1<br>
+					<input type="radio" name="q2" value="b" class ="answer" id="q2b">b. 2<br>
+					<input type="radio" name="q2" value="c" class ="answer" id="q2c">c. 3<br>
+					<input type="radio" name="q2" value="d" class ="answer" id="q2d">d. 4<br>
 
 					<h3 class="question" id="three">3. Who was the first goalie to wear a mask?</h3>
-					<input type="radio" name="q3" value="a" id="q3a">a. Jacques Plante<br>
-					<input type="radio" name="q3" value="b" id="q3b">b. Billy Smith<br>
-					<input type="radio" name="q3" value="c" id="q3c">c. Dominik Hasek<br>
-					<input type="radio" name="q3" value="d" id="q3d">d. Clint Benedict<br>
+					<input type="radio" name="q3" value="a" class ="answer" id="q3a">a. Jacques Plante<br>
+					<input type="radio" name="q3" value="b" class ="answer" id="q3b">b. Billy Smith<br>
+					<input type="radio" name="q3" value="c" class ="answer" id="q3c">c. Dominik Hasek<br>
+					<input type="radio" name="q3" value="d" class ="answer" id="q3d">d. Clint Benedict<br>
 
 					<h3 class="question" id="four">4. Which team has won the most Stanley Cups?</h3>
-					<input type="radio" name="q4" value="a" id="q4a">a. Montreal Canadiens<br>
-					<input type="radio" name="q4" value="b" id="q4b">b. New York Islanders<br>
-					<input type="radio" name="q4" value="c" id="q4c">b. Los Angeles Kings<br>
-					<input type="radio" name="q4" value="d" id="q4d">b. New York Islanders<br>
+					<input type="radio" name="q4" value="a" class ="answer" id="q4a">a. Montreal Canadiens<br>
+					<input type="radio" name="q4" value="b" class ="answer" id="q4b">b. New York Islanders<br>
+					<input type="radio" name="q4" value="c" class ="answer" id="q4c">b. Los Angeles Kings<br>
+					<input type="radio" name="q4" value="d" class ="answer" id="q4d">b. New York Islanders<br>
 
 					<h3 class="question" id="five">5. Who is nicknamed "The Great One"?</h3>
-					<input type="radio" name="q5" value="a" id="q5a">a. Mario Lemieux<br>
-					<input type="radio" name="q5" value="b" id="q5b">b. Bobby Orr<br>
-					<input type="radio" name="q5" value="c" id="q5c">c. Gordie Howe<br>
-					<input type="radio" name="q5" value="d" id="q5d">d. Wayne Gretzky<br>
+					<input type="radio" name="q5" value="a" class ="answer" id="q5a">a. Mario Lemieux<br>
+					<input type="radio" name="q5" value="b" class ="answer" id="q5b">b. Bobby Orr<br>
+					<input type="radio" name="q5" value="c" class ="answer" id="q5c">c. Gordie Howe<br>
+					<input type="radio" name="q5" value="d" class ="answer" id="q5d">d. Wayne Gretzky<br>
 					<br>
-					<div id="results"><br><br></div>
 					
-					<input type="submit" val="Submit Answers">
+					
+					<input type="submit" val="Submit Answers" id="submit">
 			</form>
 		</section>
 
