@@ -1,14 +1,12 @@
 var total = 5;
 var score = 0;
-var time = 25;
+var time = 30;
 var intervalId;
 
 //Set Correct Answers using an Array
 var answers = ["b", "c", "d", "a", "d"];
 
-setTimeout(disableButtons, 25000);
-setTimeout(submitAnswers, 25000);
-
+// setTimeout(disableButtons, 30000);
 
 function disableButtons() {
     // disables submit button
@@ -48,12 +46,12 @@ function submitAnswers() {
 // run submitAnswers when submit button is clicked
 $("#submit").on("click", submitAnswers);
 
-
+// count down from 30 seconds
 function run() {
     intervalId = setInterval(decrement, 1000);
 }
 
-
+// decrease time every 1 second
 function decrement() {
     //  Decrease number by one.
     time--;
@@ -66,11 +64,9 @@ function decrement() {
     //  Once number hits zero...
     if (time == 0) {
         //  ...run the stop function.
-        $("#time-left").html("<h2>Time's up!</h2>");
+        submitAnswers();
+        disableButtons();
         stop();
-        // $("#submit").prop("disabled", true);
-        // $(".answer").prop("disabled", true);
-
     }
 }
 
